@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #FFE5B4;
+}
+
+header{
+    background-color: #0E2D21;
+}
+
+
+/* nav styling */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0rem;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 1rem;
+    margin-left: 8rem;
+}
+
+.nav-ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.logo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 10rem;
+}
+
+
+section h1{
+    text-align: center;
+}
+
+section.event {
+    height: 32rem;
+    background-color: palevioletred;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider{
+    position: relative;
+    width: 80em;
+    min-height: 50em;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider .slide{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.slider .slide img {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 4em;
+    /*width: 80em;
+    height: 25em;
+    margin-left: 4em;
+    margin-right: 2em;*/
+}
+
+/*.img-slider{
+    position: relative;
+    height: 10em;
+    width: 60em;
+    margin: 10px;
+}
+
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+    color: aqua;
+}
+
+.img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn{
+    background: rgba(255, 255, 255, 0.9);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+*/
