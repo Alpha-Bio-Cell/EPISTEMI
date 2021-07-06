@@ -1,136 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
+.bg-dark{
+    background-color: #0E2D21 !important;
 }
 
 body{
     background-color: #FFE5B4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
 }
 
-header{
-    background-color: #0E2D21;
+.container{
+    max-width: 98%;
 }
-
-
-/* nav styling */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 0rem;
-}
-
-.nav-ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    padding-top: 1rem;
-    margin-left: 8rem;
-}
-
-.nav-ul li a{
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+    
+.navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 129%;
+    line-height: 25px;
 
 }
 
-.logo {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 10rem;
+.navbar-collapse{
+    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-inline-end: 0rem;
 }
 
-
-section h1{
-    text-align: center;
+ul.navbar-nav{
+    padding-left: 1rem;
 }
 
-section.event {
-    height: 32rem;
-    background-color: palevioletred;
-    justify-content: center;
-    align-items: center;
-
+li.nav-items{
+    padding-left: 2rem;
 }
 
-.slider{
-    position: relative;
-    width: 80em;
-    min-height: 50em;
-    overflow: hidden;
-    border-radius: 10px;
+/*.countdown, #timeline, #aboutUs{
+    background-color: #A0DB78;
+    height: 60vh;
+}*/
+
+.countdown{
+    background-image: url("../../assets/Bg.png");
+    background-size: cover; 
+    height: 290vh;
+    width: 96.5vw;
+    margin-inline-start:  1rem;
+    /*background-position: center center;*/
 }
 
-.slider .slide{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.slider .slide img {
-    position: absolute;
-    height: 50%;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 4em;
-    /*width: 80em;
-    height: 25em;
-    margin-left: 4em;
-    margin-right: 2em;*/
-}
-
-/*.img-slider{
-    position: relative;
-    height: 10em;
-    width: 60em;
-    margin: 10px;
-}
-
-.img-slider .slide{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-}
-
-.img-slider .slide img{
-    z-index: 1;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.img-slider .slide .info{
+.overlay{
     position: absolute;
     top: 0;
-    padding: 15px 30px;
-    color: aqua;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EEE5A2;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
-.img-slider .navigation{
-    z-index: 2;
-    position: absolute;
+.countdown-container{
     display: flex;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
-.img-slider .navigation .btn{
-    background: rgba(255, 255, 255, 0.9);
-    width: 12px;
-    height: 12px;
-    margin: 10px;
-    border-radius: 50%;
-    cursor: pointer;
+.big-text{
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
 }
-*/
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 30vh;
+}
+
+.countdown-container > div{
+    margin: 0 2rem;
+    text-align: center;
+    border: 1px solid #EEE5A2;
+    padding: 0px 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #000;
+    min-width: 150px;
+    background-color: #EEE5A2;
+}
+
+.left{
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.speak{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    padding: 3rem 8.5rem;
+    color: #000;
+
+}
+
+/*#prizes, #sponsors{
+    background: #FFF2C9;
+    height: 40vh;
+
+}
+
+#contactUs{
+    background: #033A35;
+    height: 30vh;
+}*/
+
+@media (max-width:767px){
+    .countdown-container > div{
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width:992px){
+    .countdown-container{
+        flex-wrap: wrap;
+    }
+
+    .countdown-container > div{
+        margin: 1rem auto;
+        max-width: 150px;
+    }
+}
+
