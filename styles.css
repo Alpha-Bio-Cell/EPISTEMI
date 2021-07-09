@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.bg-dark{
+/*.bg-dark{
     background-color: #0E2D21 !important;
-}
+}*/
 
 body{
     background-color: #FFE5B4;
@@ -11,25 +11,29 @@ body{
     font-weight: normal;
 }
 
-.container{
-    max-width: 98%;
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 }
+
     
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 129%;
+    font-size: 120%;
     line-height: 25px;
 
 }
 
-.navbar-collapse{
+/*.navbar-collapse{
     padding-left: 2rem;
     margin-left: 2rem;
     margin-inline-end: 0rem;
-}
+}*/
 
 ul.navbar-nav{
     padding-left: 1rem;
@@ -45,11 +49,11 @@ li.nav-items{
 }*/
 
 .countdown{
-    background-image: url("../assets/Bg.png");
+    background-image: url("../../assets/Bg.png");
     background-size: cover; 
-    height: 290vh;
-    width: 96.5vw;
-    margin-inline-start:  1rem;
+    height: auto;
+    width: auto;
+    
     /*background-position: center center;*/
 }
 
@@ -97,6 +101,7 @@ li.nav-items{
 
 .left{
     text-align: center;
+    color: #000;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
@@ -108,10 +113,18 @@ li.nav-items{
     font-style: normal;
     font-weight: 800;
     line-height: 55px;
-    padding: 3rem 8.5rem;
+    margin-top: 5rem;
+    padding: 2.5rem 12rem;
     color: #000;
-
 }
+
+.prizes, .sponsors{
+    background-color: #FFF2C9;
+    height: auto;
+    width: auto;
+    margin: 8rem 0;
+}
+
 
 /*#prizes, #sponsors{
     background: #FFF2C9;
@@ -123,6 +136,16 @@ li.nav-items{
     background: #033A35;
     height: 30vh;
 }*/
+
+
+/*  .container
+  {
+  align-items: center;
+  margin-left: 10rem;
+  }
+*/
+
+
 
 @media (max-width:767px){
     .countdown-container > div{
@@ -137,7 +160,54 @@ li.nav-items{
 
     .countdown-container > div{
         margin: 1rem auto;
-        max-width: 150px;
+        max-width: 100%;
     }
+}
+
+@media screen and (max-width: 410px ) {
+    .w-100{
+        height: max-content;
+    }
+
+    .countdown-container div{
+        margin: 1rem;
+        padding: 0rem;
+    }
+    
+    p.big-text{  
+        margin: 0em;
+    }
+    
+    .big-text{
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+    .countdown-container > div{
+    margin: 1.5rem 3rem;
+    text-align: center;
+    border: 1px solid #EEE5A2;
+    padding: 0px 10px;
+    border-radius: 10px;
+    min-width: 100px;
+
+}
+
+.left{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 60px;
+}
+
+.speak{
+    font-size: 2rem;
+    line-height: 15px;
+    padding: 2.5rem 2.5rem;
+    color: #000;
+
+}
+    
+    
 }
 

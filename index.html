@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPISTEMI boot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>gitEPISTEMI</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="body-wrapper" style="align-items: center;">
 
     <!--Navbar-->
-    <a name="event"></a>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="mainNav">
+    
+    <nav class="navbar sticky-top navbar-expand-lg py-1 navbar-dark" style="background-color: #0E2D21;" >
         <div class="container">
-              <img src="assets\image2.jpeg" class="mx-5 py-2"
-            alt="" style="width: 15%; height: 8%;">
+          <a class="navbar-brand" href="https://www.alphabiocell.in/">
+            <img src="assets\image2.jpeg" 
+            alt="EPISTEMI" style="width: 145px; height: auto;"> </a> 
 
             <button class="navbar-toggler" type="button" 
                             data-bs-toggle="collapse"
@@ -56,7 +57,7 @@
     </nav>
 
     <!--image banner slider-->
-    <section class="slider px-3" id="event">
+    <section class="slider" id="event">
         
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -116,20 +117,43 @@
             </div>
             <p class="left">left till the event</p>
 
+
             <p class="speak">SPEAKERS</p>
-          
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-sm-4 px-5">
+                  <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="220rem" height="220rem">
+                  <h2>NAME OF THE SPEAKER</h2>
+                  <p>PROFILE</p>
+                </div>
+
+                <div class="col-sm-4 px-5">
+                  <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="220rem" height="220rem">
+                  <h2>NAME OF THE SPEAKER</h2>
+                  <p>PROFILE</p>
+                </div>
+
+                <div class="col-sm-4 px-5">
+                  <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="220rem" height="220rem">
+                  <h2>NAME OF THE SPEAKER</h2>
+                  <p>PROFILE</p>
+                </div>
+              </div>
+            </div>
+            
 
 
         <!--prizes-->
-        <section id="prizes" class="px-3">
+        <section id="prizes" class="prizes">
           <p class="speak">PRIZES</p>
           
+         
 
         </section>
         
 
         <!--timeline-->
-        <section id="timeline" class="px-3">
+        <section id="timeline">
           <p class="speak">TIMELINE</p>
           
 
@@ -138,33 +162,71 @@
         
         
         <!--sponsors-->
-        <section id="sponsors" class="px-3">
+        <section id="sponsors" class="sponsors pb-4">
           <p class="speak">SPONSORS</p>
          
+
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+              <div class="col-sm-4 px-5 my-4">
+                <img src="assets\white.PNG" alt="" class="rounded-circle mb-4" width="200rem" height="200rem">
+               
+              </div>
+
+            </div>
+          </div>
 
         </section>
 
         <!--aboutUs-->
-        <section id="aboutUs" class="px-3">
+        <section id="aboutUs">
           <p class="speak">ABOUT US</p>
           <p>abc sbe</p>
           <h4>alpha bio cell</h4>
 
         </section>
-      </div>
+      
 
 
         <!--contactUs-->
-        <section id="contactUs" class="px-3">
+        <section id="contactUs">
           <p class="speak">CONTACT US</p>
          
           
         </section>
 
+
+      </div>
       
 
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="app.js"></script>
