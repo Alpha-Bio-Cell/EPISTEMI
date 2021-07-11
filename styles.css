@@ -5,10 +5,15 @@
 }*/
 
 body{
-    background-color: #FFE5B4;
+    /*background-color: #FFE5B4;*/
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
+    /*background: url(assets/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;*/
 }
 
 
@@ -49,8 +54,12 @@ li.nav-items{
 }*/
 
 .countdown{
-    background-image: url("../../assets/Bg.png");
-    background-size: cover; 
+    background: url(assets/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url("../../assets/Bg.png");
+    background-size: cover;
+    background: #A0DB78;*/
     height: auto;
     width: auto;
     
