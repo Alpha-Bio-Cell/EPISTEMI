@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*.bg-dark{
     background-color: #0E2D21 !important;
@@ -80,6 +81,7 @@ li.nav-items{
 
 .countdown-container{
     display: flex;
+    margin: 4rem 0;
 }
 
 .big-text{
@@ -135,6 +137,34 @@ li.nav-items{
 }
 
 
+section .container{
+    width: 100%;
+    height: auto;
+    padding: 0 4rem;
+    
+    /* flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box{
+    width: 50%;
+    height: auto;
+    background: #89BE65;
+    margin: 0 4%;
+    margin-bottom: 6%;
+    text-align: center;
+    padding: 10% 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
 /*#prizes, #sponsors{
     background: #FFF2C9;
     height: 40vh;
@@ -160,6 +190,17 @@ li.nav-items{
     .countdown-container > div{
         margin: 0 1rem;
     }
+
+
+    .box{
+        width: 50%;
+        height: auto;
+        margin-bottom: 10%;
+        padding: 10% 0;
+        box-sizing: border-box;
+        font-size: 1rem;
+    
+    }
 }
 
 @media (max-width:992px){
@@ -178,6 +219,11 @@ li.nav-items{
         height: max-content;
     }
 
+    .countdown-container{
+        display: flex;
+        margin: 1rem 0;
+    }
+
     .countdown-container div{
         margin: 1rem;
         padding: 0rem;
@@ -194,10 +240,10 @@ li.nav-items{
     }
     
     .countdown-container > div{
-    margin: 1.5rem 3rem;
+    margin: 1.5rem 1.5rem;
     text-align: center;
     border: 1px solid #EEE5A2;
-    padding: 0px 10px;
+    padding: 0px 1rem;
     border-radius: 10px;
     min-width: 100px;
 
@@ -206,14 +252,24 @@ li.nav-items{
 .left{
     text-align: center;
     font-size: 1.5rem;
-    line-height: 60px;
+    line-height: 40px;
 }
 
 .speak{
     font-size: 2rem;
     line-height: 15px;
-    padding: 2.5rem 2.5rem;
+    padding: 2rem 2.5rem;
     color: #000;
+
+}
+
+.box{
+    width: 50%;
+    height: auto;
+    margin-bottom: 10%;
+    padding: 10% 3%;
+    box-sizing: border-box;
+    font-size: 1rem;
 
 }
     
