@@ -123,8 +123,8 @@ li.nav-items{
     font-size: 3rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 55px;
-    margin-top: 5rem;
+    line-height: 35px;
+    margin-top: 1rem;
     padding: 2.5rem 12rem;
     color: #000;
 }
@@ -133,7 +133,8 @@ li.nav-items{
     background-color: #FFF2C9;
     height: auto;
     width: auto;
-    margin: 8rem 0;
+    padding: 2rem 0;
+    margin: 2rem 0;
 }
 
 
@@ -165,25 +166,241 @@ section .container{
 
 }
 
-/*#prizes, #sponsors{
-    background: #FFF2C9;
-    height: 40vh;
+/* timeline */
+
+.day1{
+    position: absolute;
+    left: 16rem;
+    padding-top: 4.5rem;   
+    font-family: Montserrat;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 3rem;
+          color: #000000;
+}
+
+.day2{
+    position: absolute;
+    left: 16rem;
+    padding-top: 4.5rem;   
+    font-family: Montserrat;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 3rem;
+          color: #000000;
+}
+
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+   
+  }
+  
+  .timeline ol {
+    font-size: 0;
+    width: 100vw;
+    padding: 250px 0;
+    transition: all 1s;
+  }
+  
+  .timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    height: 3px;
+    background: #06514A;
+   
+  }
+  
+  .timeline ol li:last-child {
+    width: 100px;
+  }
+  
+  .timeline ol li:not(:first-child) {
+    margin-left: 15px;
+  }
+  
+  .timeline ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 0.5px);
+    bottom: 0;
+    width: 15px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #F2C548;
+  }
+  
+  .timeline ol li div {
+    position: absolute;
+    left: calc(50% + 6px);
+    width: 180px;
+   
+    padding: 15px;
+    
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: #C0D3D2;
+    
+  }
+  
+  
+  .timeline ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .timeline ol li:nth-child(even) div {
+    top: -52px;
+    transform: translateY(-100%);
+  }
+  
+  .timeline ol li:nth-child(even) div::before {
+    top: 100%;
+    content: '';
+    display: block;
+    left: 80px;
+    width: 3px;
+    height: 50px;
+    border-width: 50px 0px 0 0;
+    border-color: #06514A transparent transparent transparent;
+  }
+  
+  .timeline ol li:nth-child(odd) div {
+    top: calc(100% + 50px);
+  }
+  
+  
+  .timeline ol li:nth-child(odd) div::before {
+    top: -49px;
+    content: '';
+      display: block;
+     left: 80px;
+      width: 2px;
+      height: 50px;
+    border-width: 0px 0 0 3.5px;
+    border-color: transparent transparent transparent #06514A;
+  }
+  
+  .timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  
+
+/*  about us */
+.aboutUs{
+        height: auto;
+        width: auto;
+}
+
+
+.my-container {
+    margin: 1rem 2rem;
+    padding-left: 10rem;
+    padding-right: 6rem;
+    /*background: #F2C548; */
+}
+
+
+.my-col{
+    padding: 0 3rem;
+}
+.my-row1 {
+    margin-bottom: 5rem;
+}
+
+
+.ABC{
+    text-align: left;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000000;
+}
+
+
+.text{
+    text-align: justify;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 25px;
+    color: #000000;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/*-------- aboutUs  --------*/
+.contactUs{
+    background: #033A35;
+    height: auto;
+    width: auto;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.my-container1 {
+    margin: 0 2rem;
+    padding-left: 10rem;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+    /*background: #380636;*/
+ }
+
+.club {
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.my-row2 p{
+    margin-bottom: 0 !important;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background: #A0DB78;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 25px;
+    color: #000000;
+    padding: 0.5rem 0 ;
 
 }
 
-#contactUs{
-    background: #033A35;
-    height: 30vh;
-}*/
-
-
-/*  .container
-  {
-  align-items: center;
-  margin-left: 10rem;
-  }
-*/
-
+.copyright-text #heart-icon {
+    color: red;
+}
 
 
 @media (max-width:767px){
