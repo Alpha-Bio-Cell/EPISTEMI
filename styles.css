@@ -339,7 +339,7 @@ section .container{
     margin: 0 0;
 }
 
-/*-------- aboutUs  --------*/
+/*-------- contact Us  --------*/
 .contactUs{
     background: #033A35;
     height: auto;
@@ -435,7 +435,7 @@ footer {
 
     .countdown-container{
         display: flex;
-        margin: 1rem 2.5rem;
+        margin: 1rem 2rem;
     }
 
     .countdown-container div{
@@ -597,6 +597,10 @@ footer {
     font-size: 1rem;
     line-height: 15px;
   
+}
+
+.abcImg{
+    width: 8.5rem;
 }
 
     
