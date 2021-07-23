@@ -33,6 +33,10 @@ body{
 
 }
 
+a{
+  text-decoration: none;
+}
+
 
 
 ul.navbar-nav{
@@ -43,6 +47,40 @@ li.nav-items{
     padding-left: 2rem;
 }
 
+/*---carousel-----*/
+
+.carousel-caption {
+  bottom: 180px;
+  padding: 0 100px;
+}
+
+.carousel-caption h5{
+  font-size: 8rem;
+  font-weight: 700;
+  color: #fcfdfd;
+  letter-spacing: 2rem;
+  padding-bottom: 3rem;
+}
+
+
+
+.slider-btn{
+  margin-top: 30px;
+}
+
+.slider-btn .btn {
+  background-color: #021810;
+  color: white;
+  border-radius: 30px;
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.w-100 {
+  width: 100%!important;
+  height: 88vh;
+}
 
 .countdown{
     background: url(assets/Bg.png);
@@ -137,6 +175,19 @@ section .container{
 
 }
 
+.container1{
+  width: 100%;
+  height: auto;
+
+  
+  /* flexbox*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
 .box{
     width: 50%;
     height: auto;
@@ -144,7 +195,7 @@ section .container{
     margin: 0 4%;
     margin-bottom: 6%;
     text-align: center;
-    padding: 10% 0;
+    padding: 7% 0;
     box-sizing: border-box;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
@@ -302,17 +353,17 @@ section .container{
 
 .my-container {
     margin: 1rem 2rem;
-    padding-left: 10rem;
-    padding-right: 6rem;
+    padding-left: 12rem;
+    
     /*background: #F2C548; */
 }
 
 
 .my-col{
-    padding: 0 3rem;
+    padding: 0 4rem;
 }
 .my-row1 {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 
