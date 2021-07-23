@@ -189,13 +189,13 @@ section .container{
 
 
 .box{
-    width: 50%;
+    width: 60%;
     height: auto;
     background: #89BE65;
     margin: 0 4%;
     margin-bottom: 6%;
     text-align: center;
-    padding: 7% 0;
+    padding: 2% 0;
     box-sizing: border-box;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
@@ -208,23 +208,23 @@ section .container{
 
 .day1{
     position: absolute;
-    left: 16rem;
-    padding-top: 2rem;   
+    left: 15rem;
+    padding-top: 3rem;   
     font-family: Montserrat;
           font-style: normal;
           font-weight: 800;
-          font-size: 3rem;
+          font-size: 2rem;
           color: #000000;
 }
 
 .day2{
     position: absolute;
-    left: 16rem;
-    padding-top: 8rem;   
+    left: 15rem;
+    padding-top: 9.5rem;   
     font-family: Montserrat;
           font-style: normal;
           font-weight: 800;
-          font-size: 3rem;
+          font-size: 2rem;
           color: #000000;
 }
 
@@ -390,6 +390,13 @@ section .container{
     margin: 0 0;
 }
 
+.abcImg1{
+  width: 60%;
+}
+
+.abcImg{
+  width: 70%;
+}
 /*-------- contact Us  --------*/
 .contactUs{
     background: #033A35;
@@ -408,7 +415,7 @@ section .container{
  }
 
 .club {
-    color: #fff;
+    color: rgb(67, 161, 96) !important;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -423,8 +430,13 @@ section .container{
 }
 
 p a{
-    text-decoration: none;
-    color: #fff;
+    text-decoration: underline;
+    color: #F2C548;
+}
+
+footer a{
+  color: #000;
+  text-decoration: none;
 }
 
 /*--------*/
@@ -532,23 +544,27 @@ footer {
     width: 50%;
     height: auto;
     margin-bottom: 10%;
-    padding: 10% 3%;
+    padding: 2% 2%;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 0.5rem;
 
+}
+
+.imgt{
+  height: 6rem;
 }
 
 .day1{
     left: 4rem;
-    padding-top: 4rem;   
-    font-size: 1.25rem;
+    padding-top: 4.5rem;   
+    font-size: 0.9rem;
           
 }
 
 .day2{
     left: 4rem;
-    padding-top: 9rem;   
-    font-size: 1.25rem;
+    padding-top: 9.3rem;   
+    font-size: 0.9rem;
     
 }
 
@@ -650,10 +666,15 @@ footer {
   
 }
 
-.abcImg{
-    width: 8.5rem;
+.abcImg1{
+    width: 9rem;
+    height: 11rem;
 }
 
+.abcImg{
+  width: 9rem;
+    height: 11rem;
+}
     
     
 }
