@@ -478,9 +478,50 @@ footer {
         font-size: 1rem;
     
     }
+
+    .carousel-inner {
+      width: 90%;
+      height: 100%;
+  }
+  
+  
+  
+  .carousel-caption h5{
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+    padding-bottom: 3rem;
+  }
 }
 
 @media (max-width:992px){
+
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.carousel-caption h5{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fcfdfd;
+  letter-spacing: 2rem;
+  padding-bottom: 3rem;
+}
+
+
+
+.slider-btn .btn {
+  background-color: #021810;
+  color: white;
+  border-radius: 30px;
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+
     .countdown-container{
         flex-wrap: wrap;
     }
@@ -492,9 +533,39 @@ footer {
 }
 
 @media screen and (max-width: 410px ) {
-    .w-100{
+    /*.w-100{
         height: max-content;
+    }*/
+
+    .carousel-inner {
+      width: 100%;
+  }
+
+    .carousel-caption {
+      bottom: 140px;
+      padding: 0 0.5rem;
     }
+    
+    .carousel-caption h5{
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0.5rem;
+      padding-bottom: 5rem;
+    }
+    
+    
+    
+    .slider-btn{
+      margin-top: 30px;
+      margin-left: 0.5rem;
+    }
+    
+    .slider-btn .btn {
+      border-radius: 30px;
+      padding: 1.5rem 2rem;
+      font-size: 1rem;
+    }
+    
 
     .countdown-container{
         display: flex;
