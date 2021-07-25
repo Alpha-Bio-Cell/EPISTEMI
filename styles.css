@@ -343,6 +343,10 @@ section .container{
   }
   
   /*--- Problem Satement---*/
+  td img{
+    width: 10rem; 
+    height: 10rem;
+  }
 
   /*
   .table-dark {
@@ -740,6 +744,12 @@ footer {
     
     font-size: 0.7rem;
     margin-bottom: 4px;
+  }
+
+  /*--- problem statement---  */
+  td img{
+    width: 7rem; 
+    height: 9rem;
   }
 
 .my-container{
