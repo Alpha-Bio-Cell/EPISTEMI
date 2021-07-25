@@ -1,4 +1,4 @@
-let daysItem = document.querySelector("#days");
+/*let daysItem = document.querySelector("#days");
 let hoursItem = document.querySelector("#hours");
 let minItem = document.querySelector("#min");
 let secItem = document.querySelector("#sec");
@@ -23,3 +23,5 @@ let countDown = () => {
 
 countDown()
 setInterval(countDown, 1000)
+
+*/

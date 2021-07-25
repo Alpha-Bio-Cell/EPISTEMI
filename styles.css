@@ -342,7 +342,26 @@ section .container{
     margin-bottom: 8px;
   }
   
-  
+  /*--- Problem Satement---*/
+
+  /*
+  .table-dark {
+    --bs-table-striped-bg: #A0DB78 !important;
+    ;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #373b3e;
+}
+
+  .table-dark{
+    background-color: #033A35 !important;
+  }
+*/
+
 
 /*  about us */
 .aboutUs{
@@ -491,6 +510,11 @@ footer {
     letter-spacing: 1.5rem;
     padding-bottom: 3rem;
   }
+
+  .speak {
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+  }
 }
 
 @media (max-width:992px){
@@ -604,8 +628,8 @@ footer {
 }
 
 .speak{
-    font-size: 2rem;
-    line-height: 15px;
+    font-size: 1.75rem;
+    line-height: 2rem;
     padding: 2rem 2.5rem;
     color: #000;
 
