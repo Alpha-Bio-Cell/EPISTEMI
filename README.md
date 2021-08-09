@@ -17,12 +17,12 @@ hand in hand. Participants will take part in a 36 hour-long intellectual journey
 up with groundbreaking solutions to real-world problems.</p>
 
 <p>
-The journey branches into two parts: -
+The journey branches into two parts: - <br>
 <b>I. Paradigm:</b> Participants will be joined by renowned speakers from various fields pertaining to our
-objective, followed by the release of problem statements.
+objective, followed by the release of problem statements. <br>
 
 <b>II. Polemos:</b> Participants will present their solutions to their respective problem statements and pitch
 the idea to our esteemed panel of judges.
 
-
+</p>
 
